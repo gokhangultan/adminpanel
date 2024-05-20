@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <div className="container bg-gray-400 rounded-r-lg py-3 ">
+    <div className="container primaryColor py-3 ">
       <div className="flex flex-col justify-between items-center">
         <div className="logo">
           <img

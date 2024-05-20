@@ -4,6 +4,7 @@ import './App.css'
 import Header from './layouts/Header'
 import Footer from './layouts/Footer'
 import Users from './pages/Users'
+import Login from './components/Login'
 import { Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Products from './pages/Products'
@@ -21,12 +22,14 @@ function App() {
   return (
     <div>
       <HeaderTop />
-      <div className='flex flex-row '>
+      
+      <div className='flex flex-row'>
         <div className='flex basis-1/6'>
+        
         <Header />
         
         </div>
-        <div className='flex basis-5/6 '>
+        <div className='flex basis-5/6 pt-3'>
         <Switch>
         <Route path="/" exact>
             <Home />

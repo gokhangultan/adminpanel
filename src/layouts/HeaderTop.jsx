@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function HeaderTop() {
     return (
-      <div className="container py-5 flex justify-end">
- <div className="flex flex-row gap-5 items-center ">
+      <div className="py-4 primaryColor">
+ <div className="flex flex-row gap-5 items-center justify-end pr-5 ">
        
-        <nav className=" flex flex-row justify-between gap-3 ">
+        <nav className=" flex flex-row justify-between gap-3 text-xl font-bold text-white ">
           <Link to="/">
             {" "}
             <button className="">Product Website</button>
